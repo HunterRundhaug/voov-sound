@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Internal Tools</title>
+  <link rel="stylesheet" href="/secret/admin-tools.css">
+</head>
+<body>
+  <div class="main-container">
+    <h1>Internal Tools</h1>
+    <section class="upload-section">
+      <h2>Upload New Content</h2>
+      <form id="form-tech" method="post" enctype="multipart/form-data"  action="./upload/audio">
+        <label for="file" class="file-label">Choose audio file:</label>
+        <input id="file" name="audio" type="file" class="file-input">
+        <button type="submit" class="submit-btn">Upload</button>
+      </form>
+      <form method="post" enctype="multipart/form-data"  action="./upload/license">
+        <label for="file" class="file-label">Choose license file:</label>
+        <input id="file" name="license" type="file" class="file-input">
+        <button type="submit" class="submit-btn">Upload</button>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
