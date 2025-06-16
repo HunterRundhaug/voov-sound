@@ -1,0 +1,118 @@
+
+html{
+    height: 100%;
+    width: 100%;
+    padding:0;
+    margin:0;
+}
+
+body {
+    padding:0;
+    margin:0px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100%;
+    width: 100%;
+  }
+
+.orbitron{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#main-div{
+    width:100%;
+    height:100%;
+    border:3px solid black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-div{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#audio-space{
+    width:50%;
+  
+}
+
+#audio-box{
+    /*border: 3px solid black;*/
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#play-button{
+    position: relative;
+    height:50px;
+    padding-left:5px;
+}
+
+#play-button:hover{
+    filter:invert(.3);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.1s;
+}
+
+#wave-div{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding:0px;
+}
+
+#audio-wav{
+    
+    width: 400px;
+
+}
+
+
+#download-div{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#download-button{
+    padding:20px;
+    width: 350px;
+    height: 90px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
+    border-radius: 50px;
+    background-color: white;
+    transition: width 0.3s;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#download-button:hover{
+    width: 385px;
+    transition: width 0.3s;
+    color:white;
+    background-color:#FF9305;
+    cursor:pointer;
+}
+
+
+
+
