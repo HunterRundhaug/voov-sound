@@ -10,11 +10,19 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "description": "",
+  "description": "hello",
   "dependencies": {
     "archiver": "^7.0.1",
     "express": "^5.1.0",
     "express-session": "^1.18.1",
     "multer": "^2.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HunterRundhaug/voov-sound.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HunterRundhaug/voov-sound/issues"
+  },
+  "homepage": "https://github.com/HunterRundhaug/voov-sound#readme"
 }

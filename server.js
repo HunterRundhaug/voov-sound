@@ -18,14 +18,13 @@ app.use(session({
   }
 }));
 
+app.use(express.static('public_html'));
 const clientRoute = require('./Routes/client');
 const adminRoute = require('./Routes/admin');
 app.use("/", clientRoute);
 app.use("/secret", adminRoute);
-app.use(express.static('public_html'));
 
 
 // Start server
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
 });
